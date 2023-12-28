@@ -1,0 +1,53 @@
+body {
+    font-family: Arial;
+}
+
+div.center {
+    max-width: 600px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+div.overfloat {
+    max-width: 800px;
+    max-height: 600px;
+    margin: auto;
+
+    border: 2px solid green;
+
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+
+    padding: 5px;
+    margin: auto;
+
+    background-color: black;
+    color: chartreuse;
+    display: inline-block;
+}
+
+img.float-right {
+    float: right;
+    margin: 0 0 100px 5px;
+}
+
+p.border {
+    border: 2px red solid;
+
+    text-align: center;
+    font-size: 30px;
+    color: black;
+
+    padding: 10px;
+
+    background-color: bisque;
+}
+
+p.indiv {
+    margin: 5px;
+}
